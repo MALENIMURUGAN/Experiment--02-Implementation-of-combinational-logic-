@@ -1,12 +1,13 @@
+#NAME:MALENI.M
+#REGISTER NUMBER:212223040110
+
 # Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
- 
+
 ## AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming.
  F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
- 
- 
  
 ## Equipments Required:
 ## Hardware – PCs, Cyclone II , USB flasher
@@ -17,7 +18,6 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 ## Procedure:
 1.	Create a New Project: Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
-
 2.	Create a New Design File: Once the project is created, right-click on the project name in the Project Navigator and select "Add New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
 3.	Write the Combinational Logic Code: Open the newly created Verilog or VHDL file and write the code for your combinational logic.
 4.	Compile the Project: To compile the project, click on "Processing" > "Start Compilation" in the menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
