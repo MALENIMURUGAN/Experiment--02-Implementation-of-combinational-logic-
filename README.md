@@ -1,5 +1,5 @@
-#NAME:MALENI.M
-#REGISTER NUMBER:212223040110
+# NAME:MALENI.M
+# REGISTER NUMBER:212223040110
 
 # Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
